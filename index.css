@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+#container {
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Raleway", sans-serif;
+}
+#container #quote-box {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  border-radius: 4px;
+  min-width: 600px;
+  max-width: 600px;
+  height: auto;
+}
+#container #quote-box #quote-text {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+}
+#container #quote-box #quote-author {
+  margin: 15px 0;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+}
+#container #quote-box #buttons {
+  width: 100%;
+  display: block;
+}
+#container #quote-box #buttons .button {
+  cursor: pointer;
+  background-color: #555;
+  color: #FFF;
+  opacity: 1;
+  width: auto;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  padding: 0px;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+#container #quote-box #buttons .button:hover {
+  opacity: 0.9;
+}
+#container #quote-box #buttons #tweet-quote,
+#container #quote-box #buttons #facebook-quote {
+  float: left;
+  margin-right: 8px;
+  width: 40px;
+  text-align: center;
+}
+#container #quote-box #buttons #new-quote {
+  float: right;
+}
+
+/*# sourceMappingURL=index.css.map */
